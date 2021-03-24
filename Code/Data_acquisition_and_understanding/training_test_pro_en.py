@@ -29,7 +29,7 @@ with open(path_raw_data, 'r') as infile:
                 tweet["tweet_full_text"] = str(tweet_in["full_text"])
                 tweet["user_id"] = str(tweet_in["user"]["id"])
             
-                # Continue tweet processing only if it's user ID hasn't appeared before, avoids repeated users
+                # Continue tweet processing only if its user ID hasn't appeared before, avoids repeated users
             
                 add_tweet = True
             
