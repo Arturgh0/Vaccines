@@ -5,8 +5,8 @@ from geopy.geocoders import Nominatim
 from deepface import DeepFace
 
 
-path_raw_data = "../../Data/Processed/tweets_pro_en.jsonl"
-path_img_data = "../../Data/Processed/Profile_imgs_pro_en/"
+path_raw_data = "../../Data/Raw/tweets_pro_en.jsonl"
+path_img_data = "../../Data/Raw/Profile_imgs_pro_en/"
 path_out_data = "../../Data/Processed/train_test_pro_en.json"
 
 #Init geolocator
