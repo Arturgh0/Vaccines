@@ -56,7 +56,7 @@ with open(path_raw_data, 'r') as infile:
                     tweet["usert_description"] = str(tweet_in["user"]["description"])
                     tweet["user_image_url"] = str(tweet_in["user"]["profile_image_url"])
             
-                    # Classify Gender and Age
+                    # Classify age, gender and race
 
                     # Download and save image as a temp file
                     tweet_in["user"]["profile_image_url"] = tweet_in["user"]["profile_image_url"].replace("_normal", "")
