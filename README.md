@@ -30,7 +30,7 @@ twarc hydrate ids_anti_pt.csv > tweets_anti_pt.jsonl
 twarc hydrate ids_anti_en.csv > tweets_anti_en.jsonl
 ```
 
-### 3. Label the data: (pro-vaccine/anti-vaccine), predict demographics (age, gender, race) and normalize users' locations
+### 3. Label the data (pro-vaccine/anti-vaccine), predict demographics (age, gender, race) and normalize users' locations
 ```
 python3 training_test_pro_pt.py
 ```
