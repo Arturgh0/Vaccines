@@ -18,7 +18,7 @@ with open(path_raw_data, 'r') as infile:
         for i, line in enumerate(infile):
             tweet_in = json.loads(line)
             
-            # Continue tweet processing only if it's language is portuguese
+            # Continue tweet processing only if its language is portuguese
             
             if tweet_in["lang"] == "pt":
             
